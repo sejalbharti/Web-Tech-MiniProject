@@ -1,0 +1,227 @@
+<html>
+<head>
+<style>
+table
+{
+width:65%;
+height:50%;
+border-style:dashed;
+border-radius:10px;
+   
+background-color:black;
+font-weight:bold;
+}
+tr,td
+{
+font-size:20px;
+font-family:platino;
+padding:20px;
+color:white;
+font-weight:bold;
+}
+.s
+{
+padding-left:20px;
+color:white;
+font-weight:bold;
+}
+.s1
+{
+position:relative;
+left:270px;
+color:white;
+font-weight:bold;
+}
+.text
+           
+{
+                
+height:30px;
+                
+width:400px;
+                
+border-radius:10px;
+            
+}
+            
+textarea
+            
+{
+                
+width:400px;
+                
+border-radius:10px;
+            
+}
+ 
+button{
+	background-color:blue;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:blue;
+	font-family:Arial;
+	font-size:22px;
+                      width:200px;
+	padding:16px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+color:white;
+}
+ .i,textarea{
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:blue;
+	font-family:Arial;
+	font-size:15px;
+                      width:200px;
+	padding:16px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+button:hover {
+	background-color:#5cbf2a;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+a:link
+{
+text-decoration:none;
+color:white;
+}
+html { 
+  background: url("indus.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}       
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+$("tr:even").css("background-color","grey");
+$("tr").css("color","white");
+$("th").css("color","white");
+$("td").css("color","white");
+});
+</script>
+<script type="text/javascript">
+function check()
+{
+var a=document.getElementById["p"].value;
+if(checkbox.checked)
+return true;
+else
+return false;
+}
+</script>
+</head>
+<body>
+            <div style="position:absolute;color:beige;"><a href="home.html"><t><h2 style="text-decoration: none" class="home">Back</h2></t></a></div>
+
+<h1 align="center"><font color="white">Application form for Industrial License</font></h1><br>
+<form>
+<B>
+<table align="center">
+<tr>
+<td colspan="3">NAME OF INDUSTRIAL UNDERTAKING</td>
+</tr>
+<tr>
+<td><input type="text" class="i" maxlength="100" width="100">
+</tr>
+<tr>
+<td>NUMBER / BUILDING</td>
+<td colspan="2">VILLAGE / TOWN /CITY</td>
+</tr>
+<tr>
+<td><input type="text" class="i" maxlength="35"></td><td>  <input type="text" class="i" maxlength="100"></td>
+</tr>
+<tr>
+<td>LANDMARK  </td>
+<td>LOCALITY</td>
+<td>STREET</td>
+</tr>
+<tr>
+<td><textarea  class="i" rows="4" cols="4"></textarea></td><td><textarea  class="i" rows="4" cols="4"></textarea></td><td><textarea  class="i" rows="4" cols="4"></textarea></td>
+</tr>
+<tr>
+<td>STATE  </td>
+<td>DISTRICT</td>
+<td>PIN</td>
+</tr>
+<tr>
+<td><input type="text"  class="i" maxlength="23"></td><td>  <input type="text" class="i"  maxlength="23"></td><td><input type="text" class="i" maxlength="23"></td>
+</tr>
+<tr>
+<td>TELEPHONE (include STD code)</td>
+<td>FAX (include STD code)</td>
+</tr>
+<tr>
+<td><input type="text" class="i" maxlength="35"></td><td colspan="2">  <input type="text" class="i" maxlength="35"></td>
+</tr>
+<tr>
+<td>MOBILE  </td>
+<td>PHONE</td>
+<td>EMAIL ID WEBSITE</td>
+</tr>
+<tr>
+<td><input type="text" class="i" maxlength="23"></td><td>  <input type="text" class="i" maxlength="23"></td><td><input type="text" class="i" maxlength="23"></td>
+</tr>
+<tr>
+<th>REGISTRAR OF COMPANIES REGISTRATION NO. (If
+Registered)</th>
+<td>PAN</td>
+<td>NUMBER(Location of the Factory / Proposed Activities)</td>
+</tr>
+<tr>
+<td><input type="text" class="i" maxlength="70">
+<td><input type="text"  class="i" maxlength="70"></td>
+<td><input type="text"  class="i" maxlength="35"></td>
+</tr>
+
+<tr>
+
+<td colspan="3">STREET(Location of the Factory / Proposed Activities)</td>
+</tr>
+<tr>
+</td><td><textarea  class="i" rows="4" cols="4"></textarea></td>
+</tr>
+<tr>
+<td>Item Code(NIC 2008)</td>
+<td>Item Description</td>
+<td>Proposed Annual Capacity</td>
+</tr>
+<tr>
+<td><input type="text" class="i" maxlength="23"></td><td>  <input type="text" class="i" maxlength="23"></td><td><input type="text" class="i" maxlength="23"></td>
+</tr>
+<tr>
+<td>Existing
+Capacity</td>
+<td>Total
+Capacity
+after
+Expansion</td>
+<td>Unit of Capacity</td>
+</tr>
+<tr>
+<td><input type="text" class="i" maxlength="23"></td><td>  <input type="text" class="i" maxlength="23"></td><td><input type="text" class="i" maxlength="23"></td>
+</tr>
+<tr>
+<td colspan="3">
+<input type="checkbox" id="p">I agree to all terms and conditions.<a href="term.html">Terms & Conditions</a>
+</td>
+
+</tr>
+<tr align="center">
+<td colspan="3"><p align="center"><button onsubmit="return check();"> Submit</button></p></td>
+</tr>
+    </form>
+    </body>
+</html>
